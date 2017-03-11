@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.delli.lsurvey.Step02Activity">
+
+    <TextView
+        android:id="@+id/tv_s02"
+        android:layout_width="175dp"
+        android:layout_height="45dp"
+        android:text="What is your age?"
+        android:textColor="@color/colorblue"
+        android:gravity="center"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="38dp"
+        app:layout_constraintHorizontal_bias="0.502"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/rgp_s02" />
+
+    <Button
+        android:id="@+id/btn_s02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Step02:Choose your age"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="50dp" />
+
+    <RadioGroup
+        android:id="@+id/rgp_s02"
+        android:layout_width="116dp"
+        android:layout_height="158dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        tools:layout_editor_absoluteY="170dp">
+
+        <RadioButton
+            android:id="@+id/rbtn_s02a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="17-21" />
+
+        <RadioButton
+            android:id="@+id/rbtn_s02b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="22-27" />
+
+        <RadioButton
+            android:id="@+id/rbtn_s02c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="28-31" />
+
+        <RadioButton
+            android:id="@+id/rbtn_s02d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="32-37" />
+    </RadioGroup>
+</android.support.constraint.ConstraintLayout>

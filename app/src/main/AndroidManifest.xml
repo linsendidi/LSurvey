@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.delli.lsurvey">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Step01Activity"
+            android:label="Step01" />
+        <activity
+            android:name=".Step02Activity"
+            android:label="Step02" />
+        <activity
+            android:name=".Step03Activity"
+            android:label="Step03" />
+        <activity
+            android:name=".Step04Activity"
+            android:label="Step04" />
+        <activity
+            android:name=".Step05Activity"
+            android:label="Step05" />
+        <activity
+            android:name=".Step06Activity"
+            android:label="Step06" />
+        <activity
+            android:name=".Step07Activity"
+            android:label="Step07" />
+        <activity
+            android:name=".Step08Activity"
+            android:label="Step08" />
+        <activity
+            android:name=".Step09Activity"
+            android:label="Step09" />
+        <activity
+            android:name=".Step10Activity"
+            android:label="Step10" />
+        <activity
+            android:name=".Step11Activity"
+            android:label="Step11" />
+        <activity
+            android:name=".Step12Activity"
+            android:label="Step12" />
+        <activity
+            android:name=".EmailActivity"
+            android:label="Email" />
+        <activity
+            android:name=".EndActivity"
+            android:label="End" />
+    </application>
+
+</manifest>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.delli.lsurvey.Step08Activity">
+
+    <TextView
+        android:id="@+id/tv_s08"
+        android:layout_width="249dp"
+        android:layout_height="35dp"
+        android:text="How long have you been in China?"
+        android:textColor="@color/colorblue"
+        android:gravity="center"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/rgp_s08" />
+
+    <RadioGroup
+        android:id="@+id/rgp_s08"
+        android:layout_width="178dp"
+        android:layout_height="136dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp">
+
+        <RadioButton
+            android:id="@+id/rbtn_s08a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Less than 6 months" />
+
+        <RadioButton
+            android:id="@+id/rbtn_s08b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="almost one year" />
+
+        <RadioButton
+            android:id="@+id/rbtn_s08c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="less than 2 years" />
+
+        <RadioButton
+            android:id="@+id/rbtn_s08d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="more than 2 years" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_s08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please,choose one."
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+</android.support.constraint.ConstraintLayout>

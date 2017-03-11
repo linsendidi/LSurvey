@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.delli.lsurvey.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="300dp"
+        android:layout_height="252dp"
+        android:text="Thank you for accepting to take part in this.This will be a very short anonymous survey,but we need you to be as honest as possible.
+
+We will just focus on the main information we need,avoiding to take too much of your time.
+
+Please,press the button below when you are ready to start."
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.497" />
+
+    <Button
+        android:id="@+id/btn_Start"
+        android:layout_width="289dp"
+        android:layout_height="48dp"
+        android:text="Click Here to Start"
+        android:textAllCaps="false"
+        android:layout_marginTop="22dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_welcome"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+</android.support.constraint.ConstraintLayout>
